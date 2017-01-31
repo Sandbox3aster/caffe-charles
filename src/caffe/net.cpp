@@ -165,7 +165,7 @@ void Net<Dtype>::Init(const NetParameter& in_param) {
     LOG_IF(INFO, Caffe::root_solver())
         << "Memory required for data: " << memory_used_ * sizeof(Dtype);
     ////////////////////////////////////////////
-    // Check parak_size < num_parak_blobs
+    // Check param_size < num_parak_blobs
     //////////////////////////////////////////
     const int param_size = layer_param.param_size();
     const int num_param_blobs = layers_[layer_id]->blobs().size();
