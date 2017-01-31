@@ -1,0 +1,8 @@
+src/caffe/layers/multitask_data_layer.cpp: In instantiation of ‘void caffe::MultiTaskDataLayer<Dtype>::DataLayerSetUp(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = float]’:
+src/caffe/layers/multitask_data_layer.cpp:176:1:   required from here
+src/caffe/layers/multitask_data_layer.cpp:57:9: warning: unused variable ‘total_label_length’ [-Wunused-variable]
+     int total_label_length = 0;
+         ^
+src/caffe/layers/multitask_data_layer.cpp: In instantiation of ‘void caffe::MultiTaskDataLayer<Dtype>::DataLayerSetUp(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = double]’:
+src/caffe/layers/multitask_data_layer.cpp:176:1:   required from here
+src/caffe/layers/multitask_data_layer.cpp:57:9: warning: unused variable ‘total_label_length’ [-Wunused-variable]

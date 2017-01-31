@@ -1,0 +1,8 @@
+src/caffe/layers/local_conv_layer.cpp: In instantiation of ‘void caffe::LocalConvolutionLayer<Dtype>::Backward_cpu(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<bool>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = float]’:
+src/caffe/layers/local_conv_layer.cpp:543:1:   required from here
+src/caffe/layers/local_conv_layer.cpp:467:10: warning: unused variable ‘loc_top_data_buffer’ [-Wunused-variable]
+   Dtype* loc_top_data_buffer = loc_top_buffer_.mutable_cpu_data();
+          ^
+src/caffe/layers/local_conv_layer.cpp: In instantiation of ‘void caffe::LocalConvolutionLayer<Dtype>::Backward_cpu(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<bool>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = double]’:
+src/caffe/layers/local_conv_layer.cpp:543:1:   required from here
+src/caffe/layers/local_conv_layer.cpp:467:10: warning: unused variable ‘loc_top_data_buffer’ [-Wunused-variable]

@@ -1,0 +1,23 @@
+src/caffe/layers/local_conv_layer.cu(83): warning: variable "loc_num" was declared but never referenced
+          detected during:
+            instantiation of "void caffe::LocalConvolutionLayer<Dtype>::realign_loc_conv_result_gpu(const Dtype *, Dtype *) [with Dtype=float]" 
+(218): here
+            instantiation of "void caffe::LocalConvolutionLayer<Dtype>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &, const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &) [with Dtype=float]" 
+(325): here
+
+src/caffe/layers/local_conv_layer.cu(83): warning: variable "loc_num" was declared but never referenced
+          detected during:
+            instantiation of "void caffe::LocalConvolutionLayer<Dtype>::realign_loc_conv_result_gpu(const Dtype *, Dtype *) [with Dtype=float]" 
+(218): here
+            instantiation of "void caffe::LocalConvolutionLayer<Dtype>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &, const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &) [with Dtype=float]" 
+(325): here
+
+src/caffe/layers/local_conv_layer.cu(83): warning: variable "loc_num" was declared but never referenced
+          detected during:
+            instantiation of "void caffe::LocalConvolutionLayer<Dtype>::realign_loc_conv_result_gpu(const Dtype *, Dtype *) [with Dtype=float]" 
+(218): here
+            instantiation of "void caffe::LocalConvolutionLayer<Dtype>::Forward_gpu(const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &, const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &) [with Dtype=float]" 
+(325): here
+
+src/caffe/layers/local_conv_layer.cu(83): warning: variable "loc_num" was declared but never referenced
+
